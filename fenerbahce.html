@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🟡🔵 Fenerbahçe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header fenerbahce-header">
+            <h1 class="title">🟡🔵 Fenerbahçe</h1>
+            <p class="subtitle">Sarı Lacivert Dünyası</p>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="nav-menu">
+            <a href="index.html" class="nav-link">🏠 Ana Sayfa</a>
+            <a href="haberler.html" class="nav-link">📰 Haberler</a>
+            <a href="fenerbahce.html" class="nav-link active">🟡🔵 Fenerbahçe</a>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Maç İzle Butonu -->
+            <div class="watch-match-section">
+                <a href="https://patronspor04548a2wer45awes.cfd/" target="_blank" class="watch-match-btn">
+                    <span class="watch-icon">📺</span>
+                    <span class="watch-text">Canlı Maç İzle</span>
+                    <span class="watch-arrow">→</span>
+                </a>
+            </div>
+
+            <!-- Süper Lig Puan Durumu -->
+            <div class="league-section">
+                <h2>⚽ Süper Lig Puan Durumu</h2>
+                <div class="league-table-container">
+                    <table class="league-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Takım</th>
+                                <th>O</th>
+                                <th>G</th>
+                                <th>B</th>
+                                <th>M</th>
+                                <th>A</th>
+                                <th>Y</th>
+                                <th>Av</th>
+                                <th>P</th>
+                            </tr>
+                        </thead>
+                        <tbody id="league-table-body">
+                            <!-- JavaScript ile doldurulacak -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Fenerbahçe Maçları -->
+            <div class="matches-section">
+                <h2>⚽ Fenerbahçe Maçları</h2>
+                <div id="fenerbahce-matches" class="matches-container">
+                    <!-- JavaScript ile doldurulacak -->
+                </div>
+            </div>
+
+            <!-- Fenerbahçe Spor Haberleri -->
+            <div class="fenerbahce-news-section">
+                <h2>⚽ Fenerbahçe Spor Haberleri</h2>
+                <div id="fenerbahce-news" class="fenerbahce-news-container">
+                    <div class="headlines-loading">📰 Spor haberleri yükleniyor...</div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>🎂 Doğum günün kutlu olsun! 🎂</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
